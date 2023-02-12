@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Input1 from './components/Input1';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      hello world
+      <span className="heading">Palette</span>
+      <Input1/>
     </div>
   );
 }
